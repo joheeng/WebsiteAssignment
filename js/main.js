@@ -87,3 +87,9 @@ jQuery(document).ready(function($){
 });
 
 
+$('.view-details-link').click(function(){
+	var pid = $(this).parents().eq(2).attr("id");
+   window.location.href = "product?pid="+ pid;
+});
+
+
