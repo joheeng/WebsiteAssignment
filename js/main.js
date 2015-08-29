@@ -87,6 +87,6 @@ jQuery(document).ready(function($){
 });
 
 $(".add-to-cart-link").click(function() {
-var $pid = $("")
+	$("add-to-cart-link:parent"").
 }})
 
